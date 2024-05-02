@@ -9,6 +9,8 @@ build-backend = "scikit_build_core.build"
 [project]
 name = "demcem4py"
 description = "Python wrapper of DEMCEM (https://github.com/thanospol/DEMCEM) for computing singular integrals in EM surface integrals"
-version = "0.2.0"
+version = "1.0.0"
 authors = [{name = "Niklas Wingren"}]
-license.file = "COPYING"
+
+[project.urls]
+Homepage = "https://github.com/nwingren/demcem4py"

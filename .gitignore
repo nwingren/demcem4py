@@ -39,4 +39,4 @@ _deps
 .pytest_cache/
 
 # test files
-*.txt
+demcem4py/test/*.txt

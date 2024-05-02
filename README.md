@@ -56,8 +56,7 @@ demcem4py.ss_va_nxrwg(r1: numpy.ndarray[numpy.float64], r2: numpy.ndarray[numpy.
 
 ## License
 
-The license described below is specifically for the Python bindings. DEMCEM itself is licensed under the GNU Lesser General Public License (LGPL).
-
+### Python bindings (demcem4py folder)
 Copyright (C) 2024 Niklas Wingren
 
 demcem4py is free software: you can redistribute it and/or modify
@@ -72,6 +71,15 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+### DEMCEM (DEMCEM_src folder)
+Copyright (C) 2016 Athanasios Polimeridis
+
+DEMCEM is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License (LGPL) as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+
+DEMCEM is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU GPLv3 for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/.
 
 ## Acknowledgements
 This work was supported in part by the Swedish Armed Forces, in part by the Swedish Defence Materiel Administration, in part by the National Aeronautics Research Program and in part by the Swedish Governmental Agency for Innovation Systems.

@@ -10,11 +10,10 @@ The Python bindings of C++ code is done using [pybind11](https://pybind11.readth
 
 ### Manual installation
 
-The demcem4py package can be installed by cloning this git repository and installing using pip as
+The demcem4py package can be compiled and installed by pip using the command
 
 ```bash
-git clone https://github.com/nwingren/demcem4py.git
-pip install demcem4py
+pip install https://github.com/nwingren/demcem4py/archive/refs/tags/v1.0.0.tar.gz -v
 ```
 
 ## Included Functions

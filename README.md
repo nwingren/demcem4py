@@ -8,12 +8,17 @@ The Python bindings of C++ code is done using [pybind11](https://pybind11.readth
 
 ## Installation
 
-### Manual installation
-
-The demcem4py package can be compiled and installed by pip using the command
+The demcem4py package can be installed using pip by
 
 ```bash
-pip install https://github.com/nwingren/demcem4py/archive/refs/tags/v1.0.0.tar.gz -v
+pip install https://github.com/nwingren/demcem4py/archive/refs/tags/v1.0.0.tar.gz
+```
+This will compile the C++ code, install the Python package and install Python dependencies [numpy](https://numpy.org/) and [pybind11](https://pybind11.readthedocs.io) using pip. Note that the compilation step of the installation may take some time (typically no longer than a few minutes).
+
+If conda or mamba is used as a package manager instead of pip, the dependencies can be installed from there and ignored in the demcem4py installation by
+```bash
+conda install pybind11>=2.6.1 numpy
+pip install --no-deps https://github.com/nwingren/demcem4py/archive/refs/tags/v1.0.0.tar.gz
 ```
 
 ## Included Functions
